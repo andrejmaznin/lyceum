@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<meta charset="UTF-8">
+{% if data %}
+{% set i = data|random %}
+<div class="main">
+    <h2 align="center">{{ i.name }} {{ i.surname }}</h2>
+    <img src="{{ url_for('static', filename=i.picture) }}"/>
+    </br>
+    {% for j in i.professions %}
+    {% if not loop.last %}
+    <span>{{ j }},</span>
+    {% else %}
+    <span>{{ j }}</span>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endif %}
+
+
+{% endblock %}

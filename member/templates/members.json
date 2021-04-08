@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Mark",
+        "surname": "Watson",
+        "professions": ["оператор БПЛА", "штурман марсохода"],
+        "picture": "img/member.jpg"
+    },
+    {
+        "name": "Jeremy",
+        "surname": "Jackson",
+        "professions": ["биолог", "инженер систем жизнеобеспечения"],
+        "picture": "img/member.jpg"
+    },
+    {
+        "name": "Matthew",
+        "surname": "Weeny",
+        "professions": ["врач", "штурман"],
+        "picture": "img/member.jpg"
+    },
+    {
+        "name": "Joe",
+        "surname": "Moralez",
+        "professions": ["специалист по поверхностным сооружениям", "электрик"],
+        "picture": "img/member.jpg"
+    },
+    {
+        "name": "Theodor",
+        "surname": "Willys",
+        "professions": ["физик-исследователь", "инженер-строитель"],
+        "picture": "img/member.jpg"
+    },
+    {
+        "name": "Eduard",
+        "surname": "Baldwin",
+        "professions": ["пилот", "специалист по исследованию внеземных тел"],
+        "picture": "img/member.jpg"
+    }
+]
